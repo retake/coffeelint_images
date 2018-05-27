@@ -1,0 +1,2 @@
+# coffeelint_images
+coffeelintを実行するイメージ
