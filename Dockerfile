@@ -13,7 +13,7 @@ ENV LANGUAGE ja_JP.UTF-8
 ENV LC_ALL ja_JP.UTF-8
 
 ARG coffeelint_version=2.1.0
-RUN npm install coffeelint@${coffeelint_version}
+RUN npm install -g coffeelint@${coffeelint_version}
 
 WORKDIR /app
 VOLUME /app

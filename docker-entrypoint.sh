@@ -2,4 +2,4 @@
 
 set -e
 
-/node_modules/coffeelint/bin/coffeelint "$@"
+/usr/local/lib/node_modules/coffeelint/bin/coffeelint "$@"
